@@ -1,9 +1,8 @@
-// Take the commented ES5 syntax and convert it to ES6 arrow Syntax
+// // Take the commented ES5 syntax and convert it to ES6 arrow Syntax
 
-// let myFunction = function () {
-// console.log("Function was invoked!");
-// };
-// myFunction();
+let myFunction = () => 
+console.log("Function was invoked!");
+myFunction();
 
 // let anotherFunction = function (param) {
 //   return param;
